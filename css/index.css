@@ -1,0 +1,43 @@
+h1 {
+ font-family: helvetica, arial, sans-serif;
+}
+.nav{
+    border: 1px;
+}
+
+.menu
+{
+background-color: grey ;
+width: max-content;
+block-size: max-content;
+padding: 3%;
+display: inline-block;}
+
+.aside{
+width: 29%;
+height: 500px;
+background-color: aqua;
+float: left;
+}
+
+.myphoto{ 
+    width:auto;
+    height: max-content;
+    padding: 2%;
+    background-color: orange;}
+
+.sidemenu{
+    width:auto;
+    height: max-content;
+    padding: 2%;
+    background-color: lightgray;
+
+}
+.body{
+    width:71%;
+    height: 500px;
+    background-color:blue;
+    float: left;  
+}
+
+
