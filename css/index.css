@@ -1,5 +1,15 @@
-h1 {
- font-family: helvetica, arial, sans-serif;
+.h1 {
+font-family: 'Roboto',helvetica, arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+}
+.h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    color: #252525;
 }
 .nav{
     border: 1px;
