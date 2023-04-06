@@ -3,41 +3,65 @@ h1 {
 }
 .nav{
     border: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    position: relative;
+    width: 1048px;
+    height: 107px;
+    left: calc(50% - 1048px/2);
+
 }
 
 .menu
 {
-background-color: rgb(226, 97, 97) ;
 width: max-content;
 block-size: max-content;
 padding: 4%;
-display: inline-block;}
+display: inline-block;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+}
+#logo{
+ margin-left: 30px;
+ margin-right: auto;
+}
 
 .aside{
 width: 29%;
-height: 500px;
-background-color: aqua;
+height: fit-content;
 float: left;
+margin-left: 170px;
+}
+.aside-div{
+padding: 4%;
+margin: 10%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
 }
 
-.myphoto{ 
-    width:auto;
-    height: max-content;
-    padding: 2%;
-    background-color: orange;}
-
-.sidemenu{
-    width:auto;
-    height: max-content;
-    padding: 2%;
-    background-color: lightgray;
-
+#myphoto{
+    width: 286px;
+    height: 260px;
+    left: 207px;
+    top: 199px;
 }
+.icon{
+    margin: 3%;
+}
+
 .body{
-    width:71%;
-    height: 500px;
-    background-color:blue;
-    float: left;  
+    width:outo;
+    height: fit-content;
 }
-
+.selectedproj{
+    margin: 1%;
+}
 
