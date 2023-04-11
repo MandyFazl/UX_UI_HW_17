@@ -11,17 +11,14 @@ font-size: 50px;
     font-size: 38px;
     color: #252525;
 }
+
 .nav{
-    border: 1px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 0px 20px;
     align-items: center;
-    padding: 0px 30px;
-    position: relative;
-    width: 1048px;
-    height: 107px;
-    left: calc(50% - 1048px/2);
+
 
 }
 
@@ -29,49 +26,59 @@ font-size: 50px;
 {
 width: max-content;
 block-size: max-content;
-padding: 4%;
-display: inline-block;
+padding: 25px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 21px;
+justify-self:flex-end;
 }
 #logo{
- margin-left: 30px;
- margin-right: auto;
+margin-right: 25%;
+order: 0;
 }
 
 .aside{
-width: 29%;
 height: fit-content;
-float: left;
-margin-left: 170px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
 }
 .aside-div{
 padding: 4%;
-margin: 10%;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 28px;
 line-height: 33px;
+width: min-content;
 }
 
 #myphoto{
+  align-items: start;
+  justify-content: center;
     width: 286px;
     height: 260px;
-    left: 207px;
-    top: 199px;
 }
 .icon{
+    display: flex;
     margin: 3%;
+    justify-content:space-around;
+    
 }
 
-.body{
+.rightside{
     width:outo;
     height: fit-content;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    align-self: center;
 }
-.selectedproj{
-    margin: 1%;
+.rightside img{
+    padding: 10px;
 }
+
 
